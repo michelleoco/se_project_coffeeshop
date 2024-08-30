@@ -141,12 +141,7 @@
   list-style-type: none;
 }
 
-.recipes__iframe-aero {
-  height: 273px;
-  width: 480px;
-}
-
-.recipes__iframe-french {
+.recipes__iframe {
   height: 273px;
   width: 480px;
 }
