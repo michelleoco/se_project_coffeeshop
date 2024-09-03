@@ -42,7 +42,7 @@
               <a href="#recipes" class="nav__link">Recipes</a>
             </li>
             <li>
-              <a href="#book" class="nav__link">Book a table</a>
+              <a href="#reservation" class="nav__link">Book a table</a>
             </li>
             <li>
               <a href="#menu" class="nav__link">Menu</a>
@@ -115,7 +115,64 @@
           </ul>
         </section>
 
-        <section id="book" class="book"></section>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
+            <!--using a block "form" and the parent of another block to mix an element with a block in order to define margins in the element class. Style everything in form block. This is called a mix.-->
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">
+                Name *
+                <input
+                  class="form__input"
+                  type="text"
+                  placeholder="Name Surname"
+                  id="name"
+                  required
+                />
+              </label>
+              <label class="form__label" for="number">
+                Number of guests *
+                <input
+                  class="form__input"
+                  type="number"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                  id="number"
+                  required
+                />
+              </label>
+              <label class="form__label" for="date-time">
+                Date & time *
+                <input
+                  class="form__input"
+                  type="datetime-local"
+                  id="date-time"
+                  required
+                />
+              </label>
+              <label class="form__label" for="email">
+                Your email *
+                <input
+                  class="form__input"
+                  type="email"
+                  placeholder="email@email.com"
+                  required
+                  id="email"
+                />
+              </label>
+            </fieldset>
+            <button class="form__button">Book a table</button>
+            <label class="form__label form__label_type_checkbox" for="checkbox">
+              <input
+                class="form__label"
+                type="checkbox"
+                required
+                id="checkbox"
+              />I agree with the terms of use</label
+            >
+          </form>
+        </section>
         <section id="menu" class="menu"></section>
         <section id="contacts" class="contact"></section>
       </main>
