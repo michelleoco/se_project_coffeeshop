@@ -1,0 +1,38 @@
+.menu {
+  padding: 100px 0 100px;
+  color: #000;
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-size: cover;
+}
+
+.menu__title {
+  text-align: center;
+  margin: 0 0 24px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+/*can't use text align with max width*/
+
+.menu__subtitle {
+  margin: 0 auto;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
+  text-align: center;
+}
+
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  list-style-type: none;
+}
