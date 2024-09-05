@@ -26,8 +26,6 @@
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-size: 60px;
-  line-height: 72px;
   color: #3f96f3;
 }
 
@@ -56,13 +54,9 @@
   margin-top: auto;
   display: flex;
   justify-content: space-between;
+  align-items: end;
 }
 
 .header__paragraph {
   margin: 0;
-}
-
-.header__address {
-  align-self: flex-end;
-  margin-bottom: 0;
 }
